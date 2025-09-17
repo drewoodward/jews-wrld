@@ -3,13 +3,13 @@
 	"id": "jews_wrld",
 	"version": "${version}",
 	"name": "Jews Wrld",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Testing mods for jews_wrld",
 	"authors": [
-		"Me!"
+		"Andre!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/drewoodward/jews-wrld"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/jews_wrld/icon.png",
@@ -20,8 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.andre.jews_wrld.JewsWrldDataGenerator"
-		]
-	},
+		],
+        "client": ["net.andre.jews_wrld.JewsWrldClient"]
+    },
 	"mixins": [
 		"jews_wrld.mixins.json"
 	],
